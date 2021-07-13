@@ -7,7 +7,7 @@ img2 = cv2.imread('C:/Users/Hp/Desktop/Untitled Folder/day3 assignment/index4.jp
 img3 = cv2.imread('C:/Users/Hp/Desktop/Untitled Folder/day3 assignment/index1.png')
 img4 = cv2.imread('C:/Users/Hp/Desktop/Untitled Folder/day3 assignment/index.jpg')
 img5 = cv2.imread('C:/Users/Hp/Desktop/Untitled Folder/day3 assignment/index5.jpg')
-cap = cv2.VideoCapture('C:/Users/Hp/Desktop/Untitled Folder/day3 assignment/sample.mp4')
+cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 while True:
 
